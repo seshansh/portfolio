@@ -1,0 +1,10 @@
+.footer-container{
+    height: 80px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #181D31;
+}
+.footer-container p{
+    color: white;
+}

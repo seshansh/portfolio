@@ -1,0 +1,65 @@
+.projectShowcase{
+    display: flex;
+    justify-content: center;
+    margin-block: 24px;
+}
+
+.projectShowcase-container{
+    display: flex;
+    background-color: var(--color-light);
+    justify-content: space-between;
+    border: 3px solid transparent;
+    padding: 16px;
+    width: 90%;
+    border-radius: 24px;
+    transition: 300ms ease-in-out;
+    transform: skewX(5deg);
+}
+
+.projectShowcase-container:hover{
+    background-color: white;
+    box-shadow: -10px 10px var(--color-primary);
+    transform: translateX(16px) skewX(5deg);
+}
+
+.projectShowcase-imageContainer{
+    position: relative;
+    height: 400px;
+    width: 25%;
+    border-radius: 24px;
+    overflow: hidden;
+    border: 2px solid white;
+    transition: 300ms ease-in-out;
+}
+.projectShowcase-content{
+    margin: 8px;
+    padding: 16px;
+    border: 3px solid white;
+    width: 73%;
+    border-radius: 24px;
+    transition: 300ms ease-in-out;
+}
+.projectShowcase-container:hover .projectShowcase-content{
+    box-shadow: -5px 5px var(--color-primary);
+}
+
+.projectShowcase-ButtonContainer{
+    position: absolute;
+    width: 100%;
+    bottom: 0;
+    display: flex;
+    gap: 8px;
+    flex-direction: column;
+    justify-content: space-around;
+    transform: translateY(100px);
+    transition: 300ms ease-in-out;
+}
+.projectShowcase-ButtonContainer>.secondary:hover{
+    background-color: var(--color-primary);
+    color: white;
+    border-color: transparent;
+}
+
+.projectShowcase-container:hover .projectShowcase-ButtonContainer{
+    transform: translateY(0);
+}
