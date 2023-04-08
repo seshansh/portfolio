@@ -35,7 +35,7 @@ React-Js. Eager to tackle more complex problems and continue to find ways to max
         </p>
         <p>I considered myself a quick learner so if you want something from me that I don't know then I'll make sure to learn that in very short amount of time without any special supervision. I'm also good in team work as I have worked in couple of group project in college. 
         </p>
-        <a href='https://drive.google.com/file/d/1WXtdV26M-MaCBIkjcBabZRoysfkepN8e/view?usp=share_link' className='btn primary' target='_blank'>Download Cv <IoDownload/></a>
+        <a href='https://drive.google.com/file/d/1dQDdgkJn8duhnPfyHvyEaB4zKwnJokR8/view?usp=share_link' className='btn primary' target='_blank'>Download Cv <IoDownload/></a>
       </div>
     </div>
    </section>

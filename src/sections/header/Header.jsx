@@ -16,7 +16,7 @@ const Header = () => {
         </p>
         <div className="header__cta">
           <a href="#contact" className='btn primary'>Let's Talk</a>
-          <a href="#portfolio" className='btn light'>My Work</a>
+          <a href="https://github.com/seshansh?tab=repositories" className='btn light' target='_blank' rel="noreferrer">My Work</a>
         </div>
       </div>
     </header>

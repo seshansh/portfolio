@@ -1,0 +1,29 @@
+.contact-way{
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+    margin-top: 6vh;
+    transition: 2s ease-in-out;
+
+}
+.contact-me{
+    box-shadow: 0 5px 5px grey;
+    border: 8px solid white;
+    transform: skewX(5deg);
+    transition: 500ms ease;
+    z-index: 2;
+    border-radius: 4px;
+    overflow: hidden;
+
+}
+.contact-way>a:hover{
+    background-color: white;
+    border-color: transparent;
+    /* box-shadow: 0 5px var(--color-primary); */
+    /* box-shadow: -10px 10px var(--color-primary); */
+    box-shadow: -10px 10px grey;
+    /* width: 150px; */
+    text-align: center;
+    transform: translateX(16px) skewX(5deg);
+    transition: 300ms ease-in-out;
+}

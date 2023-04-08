@@ -9,7 +9,7 @@ const Projects = () => {
       <h2>Projects</h2>
       {/* <ProjectShowcase/> */}
       {
-        projectData.map(singleProject => <ProjectShowcase key={singleProject.id} code={singleProject.code} projectName={singleProject.name} aboutProject={singleProject.aboutProject} imageSrc={singleProject.imageSrc} techUsed={singleProject.techUsed} learned={singleProject.learned}/>)
+        projectData.map(singleProject => <ProjectShowcase key={singleProject.id} code={singleProject.code} projectName={singleProject.name} aboutProject={singleProject.aboutProject} imageSrc={singleProject.imageSrc} techUsed={singleProject.techUsed} learned={singleProject.learned} live={singleProject.live}/>)
       }
       {/* <ProjectShowcase/>
       <ProjectShowcase/>

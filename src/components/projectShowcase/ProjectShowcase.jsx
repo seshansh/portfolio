@@ -7,7 +7,7 @@ const ProjectShowcase = (props) => {
             <div className="projectShowcase-imageContainer">
                 <div className="projectShowcase-ButtonContainer">
                     <a href={props.code} className='btn secondary' target="_blank" rel="noopener noreferrer">Code</a>
-                    <a href='#download' className='btn secondary'>Live Project</a>
+                    <a href={props.live} className='btn secondary'>Live Project</a>
                 </div>
                 <img height={'100%'} src={props.imageSrc} alt={props.projectName}/>
             </div>
