@@ -1,21 +1,21 @@
 {
   "files": {
-    "main.css": "/portfolio/static/css/main.bc61d6c2.css",
-    "main.js": "/portfolio/static/js/main.746a687e.js",
+    "main.css": "/portfolio/static/css/main.b03751a4.css",
+    "main.js": "/portfolio/static/js/main.5755d509.js",
     "static/media/weatherApp.png": "/portfolio/static/media/weatherApp.514ccca925e32c4e80af.png",
     "static/media/bookshow2.jpeg": "/portfolio/static/media/bookshow2.1112ae14f4a8698af804.jpeg",
     "static/media/my-portfolio2.png": "/portfolio/static/media/my-portfolio2.82c5c59c39515c273ff3.png",
     "static/media/sk.jpeg": "/portfolio/static/media/sk.9a63ea097018c35e2e57.jpeg",
+    "static/media/task2.png": "/portfolio/static/media/task2.2464a6d1124a9c318042.png",
     "static/media/expenseTrack.png": "/portfolio/static/media/expenseTrack.c64e79762d1ecd39ef9a.png",
-    "static/media/noteKeeper.png": "/portfolio/static/media/noteKeeper.5b45b1eafe47917501eb.png",
     "static/media/aboutimage.jpeg": "/portfolio/static/media/aboutimage.de99c8cdd9274c6869ed.jpeg",
     "static/media/logo.png": "/portfolio/static/media/logo.89f39a5a719bd3c2256e.png",
     "index.html": "/portfolio/index.html",
-    "main.bc61d6c2.css.map": "/portfolio/static/css/main.bc61d6c2.css.map",
-    "main.746a687e.js.map": "/portfolio/static/js/main.746a687e.js.map"
+    "main.b03751a4.css.map": "/portfolio/static/css/main.b03751a4.css.map",
+    "main.5755d509.js.map": "/portfolio/static/js/main.5755d509.js.map"
   },
   "entrypoints": [
-    "static/css/main.bc61d6c2.css",
-    "static/js/main.746a687e.js"
+    "static/css/main.b03751a4.css",
+    "static/js/main.5755d509.js"
   ]
 }
