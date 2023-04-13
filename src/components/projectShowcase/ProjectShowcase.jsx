@@ -24,6 +24,7 @@ const ProjectShowcase = (props) => {
                 <h4>What i learned</h4>
                     <p>{props.learned}</p>
                 </div>
+    
                 </div>
             </div>
         </div>

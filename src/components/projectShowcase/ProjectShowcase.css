@@ -60,6 +60,34 @@
     border-color: transparent;
 }
 
+
 .projectShowcase-container:hover .projectShowcase-ButtonContainer{
     transform: translateY(0);
+}
+
+@media screen and (max-width:700px) {
+    .projectShowcase-container{
+    transform: skewX(0deg);
+    padding: 4px;
+
+    }
+    .projectShowcase-container:hover .projectShowcase-content{
+    box-shadow: -10px 10px grey;
+
+    }
+    
+    .projectShowcase-imageContainer{
+        display: none;
+    }
+    .projectShowcase-container:hover{
+        box-shadow: none;
+        transform: translateX(0px) skewX(1deg);
+    }
+    .projectShowcase-content{
+        margin: 4px;
+        padding: 6px;
+        margin-bottom: 16px;
+        width: 98%;
+    }
+    
 }

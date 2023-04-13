@@ -27,3 +27,9 @@
     transform: translateX(16px) skewX(5deg);
     transition: 300ms ease-in-out;
 }
+@media screen and (max-width:700px) {
+    .contact-me{
+        margin: 8px;
+    }
+    
+}
