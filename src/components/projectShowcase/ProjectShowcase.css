@@ -17,20 +17,20 @@
 }
 
 .projectShowcase-container:hover{
-    background-color: white;
+    background-color: rgba(105, 12, 198, 0.04);
     box-shadow: -10px 10px var(--color-primary);
-    transform: translateX(16px) skewX(5deg);
+    transform: translateX(16px);
 }
 
 .projectShowcase-imageContainer{
     position: relative;
-    height: 400px;
     width: 25%;
     border-radius: 24px;
     overflow: hidden;
     border: 2px solid white;
     transition: 300ms ease-in-out;
 }
+
 .projectShowcase-content{
     margin: 8px;
     padding: 16px;
@@ -45,13 +45,15 @@
 
 .projectShowcase-ButtonContainer{
     position: absolute;
+    background-color: rgba(0, 0, 0, 0.6);
     width: 100%;
+    padding: 16px;
     bottom: 0;
     display: flex;
     gap: 8px;
-    flex-direction: column;
+    flex-direction: row;
     justify-content: space-around;
-    transform: translateY(100px);
+    transform: translateY(150px);
     transition: 300ms ease-in-out;
 }
 .projectShowcase-ButtonContainer>.secondary:hover{
@@ -60,34 +62,31 @@
     border-color: transparent;
 }
 
-
 .projectShowcase-container:hover .projectShowcase-ButtonContainer{
     transform: translateY(0);
 }
 
-@media screen and (max-width:700px) {
+@media screen and (max-width:1024px){
     .projectShowcase-container{
-    transform: skewX(0deg);
-    padding: 4px;
-
+        flex-direction: column;
+        /* background-color: rgba(105, 12, 198, 0.04); */
+        box-shadow: -10px 10px grey;;
+        transform: none;
     }
-    .projectShowcase-container:hover .projectShowcase-content{
-    box-shadow: -10px 10px grey;
-
-    }
-    
-    .projectShowcase-imageContainer{
-        display: none;
-    }
-    .projectShowcase-container:hover{
-        box-shadow: none;
-        transform: translateX(0px) skewX(1deg);
+    .projectShowcase-container{
+        transform: none;
     }
     .projectShowcase-content{
-        margin: 4px;
-        padding: 6px;
-        margin-bottom: 16px;
-        width: 98%;
+        box-shadow: -10px 10px grey;
+        width: 100%;
     }
-    
+    .projectShowcase-imageContainer{
+        width: 100%;
+    }
+    .projectShowcase-ButtonContainer{
+        transform: none;
+    }
+    .projectShowcase{
+        margin-block: 5%;
+    }
 }

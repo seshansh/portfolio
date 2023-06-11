@@ -8,18 +8,16 @@
 .about__portrait{
     height: fit-content;
     max-height: 40rem;
-    border:1rem solid var(--color-white);
+    border:1rem solid transparent;
     transition: var(--transition);
     overflow: hidden;
     box-shadow: 0 5px 5px grey;
-    transform: skewX(5deg) rotateY(15deg);
 }
 
 .about__portrait:hover{
-    border-color: transparent;
+    border-color: grey;
     scale: 1.2;
     border-radius: 50px;
-    transform: none;
 }
 
 .about__cards{
@@ -83,4 +81,4 @@
         margin-top:2rem;
     }
     
-}
+}   

@@ -9,7 +9,7 @@
     border-radius: 4px;
     overflow: hidden;
     border: 8px solid white;
-    margin-left: 16px;
+    /* margin-left: 16px; */
     box-shadow: 0 5px 5px grey;
     transform: skewX(5deg);
 }
@@ -60,11 +60,14 @@
     transition: 1s ease-in-out;
 }
 .SkewedCard:hover{
-    width: 500px;
-    border-color: transparent;
-    border-radius: 40px;
-    box-shadow: 0 5px var(--color-primary);
+    transform: scale(1.5);
+    border-color: black;
+    box-shadow: 0 0px 100px 10px var(--color-primary);
+    z-index: 2;
+    border-radius: 20px;
+    outline: var(--color-primary) solid 1px;
 }
+
 .SkewedCard:hover .Progress{
     opacity: 1;
     transform: translateY(0);
@@ -76,44 +79,203 @@
 
 .SkewedCard:hover .per20{
     width: 20%;
-    border-radius: 0;
+    border-radius: 8px;
 }
 
 .SkewedCard:hover .per30{
     width: 30%;
-    border-radius: 0;
+    border-top-right-radius: 8px;
+    border-bottom-right-radius: 8px;
 }
 
 .SkewedCard:hover .per40{
     width: 40%;
-    border-radius: 0;
+    border-top-right-radius: 8px;
+    border-bottom-right-radius: 8px;
 }
 .SkewedCard:hover .per50{
     width: 50%;
-    border-radius: 0;
+    border-top-right-radius: 8px;
+    border-bottom-right-radius: 8px;
 }
 .SkewedCard:hover .per60{
     width: 60%;
-    border-radius: 0;
+    border-top-right-radius: 8px;
+    border-bottom-right-radius: 8px;
 }
 .SkewedCard:hover .per70{
     width: 70%;
-    border-radius: 0;
+    border-top-right-radius: 8px;
+    border-bottom-right-radius: 8px;
 }
 .SkewedCard:hover .per80{
     width: 80%;
-    border-radius: 0;
+    border-top-right-radius: 8px;
+    border-bottom-right-radius: 8px;
 }
 .SkewedCard:hover .per90{
     width: 90%;
-    border-radius: 0;
+    border-top-right-radius: 8px;
+    border-bottom-right-radius: 8px;
 }
 .SkewedCard:hover .per100{
     width: 100%;
-    border-radius: 0;
+    border-top-right-radius: 8px;
+    border-bottom-right-radius: 8px;
+}
+.SkewedCard:hover .per25{
+    width: 25%;
+    border-top-right-radius: 8px;
+    border-bottom-right-radius: 8px;
 }
 
+.SkewedCard:hover .per35{
+    width: 35%;
+    border-top-right-radius: 8px;
+    border-bottom-right-radius: 8px;
+}
 
+.SkewedCard:hover .per45{
+    width: 45%;
+    border-top-right-radius: 8px;
+    border-bottom-right-radius: 8px;
+}
+.SkewedCard:hover .per55{
+    width: 55%;
+    border-top-right-radius: 8px;
+    border-bottom-right-radius: 8px;
+}
+.SkewedCard:hover .per65{
+    width: 65%;
+    border-top-right-radius: 8px;
+    border-bottom-right-radius: 8px;
+}
+.SkewedCard:hover .per75{
+    width: 75%;
+    border-top-right-radius: 8px;
+    border-bottom-right-radius: 8px;
+}
+.SkewedCard:hover .per85{
+    width: 85%;
+    border-top-right-radius: 8px;
+    border-bottom-right-radius: 8px;
+}
+.SkewedCard:hover .per95{
+    width: 95%;
+    border-top-right-radius: 8px;
+    border-bottom-right-radius: 8px;
+}
 
-
+@media screen and (max-width:1024px){
+    .SkewedCard{
+        transform: none;
+        width: 100%;
+        border-color: black;
+        z-index: 2;
+        border-radius: 20px;
+        outline: var(--color-primary) solid 2px;
+    }
+    .SkewedCard:hover{
+        transform: scale(1.05);
+    }
+    .Progress{
+        transform: translateY(0);
+        opacity: 1;
+    }
+    .SkewedCard-Name{
+        transform: translateY(0);
+    }
+    .SkewedCard-Name{
+        transform: translateY(0);
+    }
+    
+    .per20{
+        width: 20%;
+        border-radius: 8px;
+    }
+    
+    .per30{
+        width: 30%;
+        border-top-right-radius: 8px;
+        border-bottom-right-radius: 8px;
+    }
+    
+    .per40{
+        width: 40%;
+        border-top-right-radius: 8px;
+        border-bottom-right-radius: 8px;
+    }
+    .per50{
+        width: 50%;
+        border-top-right-radius: 8px;
+        border-bottom-right-radius: 8px;
+    }
+    .per60{
+        width: 60%;
+        border-top-right-radius: 8px;
+        border-bottom-right-radius: 8px;
+    }
+    .per70{
+        width: 70%;
+        border-top-right-radius: 8px;
+        border-bottom-right-radius: 8px;
+    }
+    .per80{
+        width: 80%;
+        border-top-right-radius: 8px;
+        border-bottom-right-radius: 8px;
+    }
+    .per90{
+        width: 90%;
+        border-top-right-radius: 8px;
+        border-bottom-right-radius: 8px;
+    }
+    .per100{
+        width: 100%;
+        border-top-right-radius: 8px;
+        border-bottom-right-radius: 8px;
+    }
+    .per25{
+        width: 25%;
+        border-top-right-radius: 8px;
+        border-bottom-right-radius: 8px;
+    }
+    
+    .per35{
+        width: 35%;
+        border-top-right-radius: 8px;
+        border-bottom-right-radius: 8px;
+    }
+    
+    .per45{
+        width: 45%;
+        border-top-right-radius: 8px;
+        border-bottom-right-radius: 8px;
+    }
+    .per55{
+        width: 55%;
+        border-top-right-radius: 8px;
+        border-bottom-right-radius: 8px;
+    }
+    .per65{
+        width: 65%;
+        border-top-right-radius: 8px;
+        border-bottom-right-radius: 8px;
+    }
+    .per75{
+        width: 75%;
+        border-top-right-radius: 8px;
+        border-bottom-right-radius: 8px;
+    }
+    .per85{
+        width: 85%;
+        border-top-right-radius: 8px;
+        border-bottom-right-radius: 8px;
+    }
+    .per95{
+        width: 95%;
+        border-top-right-radius: 8px;
+        border-bottom-right-radius: 8px;
+    }
+}
 

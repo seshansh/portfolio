@@ -29,7 +29,13 @@
 }
 @media screen and (max-width:700px) {
     .contact-me{
+        box-shadow: -10px 10px grey;
         margin: 8px;
+
     }
-    
+    .contact-way{
+        transition: none;
+        transform: translate(8px) skew(1deg);
+    }
+       
 }

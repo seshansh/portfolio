@@ -15,7 +15,7 @@ const Header = () => {
           A computer science student looking for opportunity in the field of web development to get experience, enhance knowledge and sharp skills.
         </p>
         <div className="header__cta">
-          <a href="#contact" className='btn primary'>Let's Talk</a>
+          <a href="#contact" className='btn primary' target="_blank" rel="noreferrer">Let's Talk</a>
           <a href="https://github.com/seshansh?tab=repositories" className='btn light' target='_blank' rel="noreferrer">My Work</a>
         </div>
       </div>

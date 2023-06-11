@@ -14,11 +14,10 @@ header{
 }
 .header__profile{
   align-items: center;
-  box-shadow: 10px 10px 30px 0 black,-10px -10px 30px 0 white;
+  border: 8px solid grey;
+  box-shadow: 2px 2px 5px grey;
   width: 18rem;
-  height: 22rem;
-  /* border-radius: 12rem 12rem 2rem 2rem; */
-  border-radius: 2rem ;
+  border-radius: 12rem 12rem 2rem 2rem;
   overflow: hidden;
   margin-bottom: 1.5rem;
 }
