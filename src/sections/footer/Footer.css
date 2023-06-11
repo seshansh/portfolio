@@ -3,7 +3,7 @@
     display: flex;
     justify-content: center;
     align-items: center;
-    background-color: #181D31;
+    background-color: var(--color-primary);
 }
 .footer-container p{
     color: white;
